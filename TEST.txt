@@ -194,3 +194,21 @@ nav-tab เก่า
     </div>
     <!---->
   </div>
+
+
+  {day:"1",week:"mo",moth:"8",time:"18",personal:"N'ป.1"},
+            {day:"1",week:"mo",moth:"8",time:"19",personal:"N'น้ำขิง ป.5"},
+            {day:"2",week:"tu",moth:"8",time:"17",personal:"N'sony ม.2"},
+            {day:"2",week:"tu",moth:"8",time:"19",personal:"N'auto ม.1"},
+            {day:"3",week:"we",moth:"8",time:"17",personal:"N'ป.1"},
+            {day:"3",week:"we",moth:"8",time:"18",personal:"N'ปุ๊ปปั๊ป ป.3"},
+            {day:"4",week:"th",moth:"8",time:"17",personal:"N'sony ม.2"},
+            {day:"5",week:"fr",moth:"8",time:"18",personal:"N'ปาล์ม ป.5"},
+            {day:"5",week:"fr",moth:"8",time:"19",personal:"N'auto ม.1"},
+            {day:"6",week:"sa",moth:"8",time:"10",personal:"N'pj ป.6"},
+            {day:"6",week:"sa",moth:"8",time:"14",personal:"N'น้ำขิง ป.5"},
+            {day:"6",week:"sa",moth:"8",time:"15",personal:"N'แม่โบว์ ป.5"},
+            {day:"7",week:"su",moth:"8",time:"10",personal:"N'pj ป.6"},
+            {day:"7",week:"su",moth:"8",time:"11",personal:"N'auto ม.1"},
+            {day:"7",week:"su",moth:"8",time:"14",personal:"N'pun ป.4"},
+            {day:"7",week:"su",moth:"8",time:"15",personal:"N'auto ม.1"}

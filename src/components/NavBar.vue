@@ -1,12 +1,15 @@
 
 
 <template>
-  <div>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+  <div class="">
+      <nav class="navbar navbar-expand-sm navbar-dark  fixed-top" style="background-color: rgba(106, 3, 146, 0.61);">
       <div class="container-fluid">
-        <a class="navbar-brand" href="javascript:void(0)"
-          >Logo | Wit Up Together</a
-        >
+        <a class="navbar-brand ms-2 d-flex" href="#">
+          <img src="./img-page1/logo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+          <strong><h5 class="mt-2 ms-2" style="color: #ffffff;"> WIT UP TOGETHER</h5></strong>
+          <!-- <strong><h3 class="mt-1 ms-2"> Wit up together</h3></strong> -->
+        </a>
+        <!-- <div><strong><h3>Wit Up Together</h3></strong></div> -->
         <button
           class="navbar-toggler"
           type="button"
@@ -21,19 +24,19 @@
             <div class="me-3">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item ">
-                  <a class="nav-link" href="#"><img src="./line.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
+                  <a class="nav-link" href="#"><img src="./img-page1/line.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#"><img src="./facebook.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
+                  <a class="nav-link" href="#"><img src="./img-page1/facebook.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#"><img src="./telephone.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
+                  <a class="nav-link" href="#"><img src="./img-page1/telephone.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#"><img src="./gmail.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
+                  <a class="nav-link" href="#"><img src="./img-page1/gmail.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#"><img src="./map-pin.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
+                  <a class="nav-link" href="#"><img src="./img-page1/map-pin.png" alt="" width="30" height="30" class="d-inline-block align-text-top"></a>
                 </li>
               </ul>
             </div>
@@ -102,6 +105,11 @@
   </div> -->
   
 </template>
-
+<style scoped>
+.font-custom {
+  font-family: "IBMPlexSansThaiLooped";
+  font-size: 30px;
+}
+</style>
 
 

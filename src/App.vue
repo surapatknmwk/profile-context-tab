@@ -1,16 +1,13 @@
 <template>
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <div id="app" >
-    <div class="bg-image" >
+    <div class="bg-image " >
       <NavBar/>
-      
-      <div class="content">
+      <div class="content pb-5 pt-5">
         <router-view/>
-        
       </div>
-      
     </div>
   </div>
 </template>
@@ -28,15 +25,22 @@ export default {
 
 <style scoped>
 
-.bg-image {
-  /* background-image: url('@/assets/bg1.png'); */
-  background-color: rgb(148, 185, 255);
-  /* height: 40px;
-  width: 40px; */
+
+
+@font-face {
+  font-family: 'IBMPlexSansThaiLooped';
+  src: local("IBMPlexSansThaiLooped"),url('~@/assets/font/IBMPlexSansThaiLooped-Regular.ttf') format('truetype');
+  /* font-family: 'thsarabun';
+  src: local("thsarabun"),url('~@/assets/font/thsarabun.ttf') format('truetype'); */
 }
 
-.bg-image { 
-} 
+.bg-image{
+  background-image: linear-gradient(88deg, #0d00cc59 0%, #cc005559 100%);
+  width: 100%;
+  height: auto;
+}
+
+
 
 
 </style>
