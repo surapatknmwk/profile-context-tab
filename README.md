@@ -23,3 +23,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Lib
 npm install @fullcalendar/interaction
 
+
+##### Deploy
+git branch -D gh-pages
+

@@ -3,7 +3,7 @@ import HomeView from '../views/Home.vue'
 
 const routes = [
   {
-    path: '/wituptogether/profile',
+    path: '/',
     name: 'home',
     component: HomeView
   },

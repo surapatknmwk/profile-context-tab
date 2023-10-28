@@ -105,23 +105,31 @@ export default {
             day: "2",
             week: "tu",
             moth: "8",
-            time: "17",
-            personal: "N'sony",
+            time: "19",
+            personal: "N'auto",
             color: "",
           },
           {
             day: "2",
             week: "tu",
             moth: "8",
-            time: "19",
-            personal: "N'auto",
+            time: "18",
+            personal: "N'เอมิ",
             color: "",
           },
           {
             day: "3",
             week: "we",
             moth: "8",
-            time: "19",
+            time: "17",
+            personal: "N'sony",
+            color: "",
+          },
+          {
+            day: "4",
+            week: "we",
+            moth: "8",
+            time: "18",
             personal: "N'ปุ๊ปปั๊ป",
             color: "",
           },
@@ -131,6 +139,14 @@ export default {
             moth: "8",
             time: "17",
             personal: "N'sony",
+            color: "",
+          },
+          {
+            day: "4",
+            week: "th",
+            moth: "8",
+            time: "18",
+            personal: "N'ปกป้อง",
             color: "",
           },
           {
@@ -169,6 +185,14 @@ export default {
             day: "6",
             week: "sa",
             moth: "8",
+            time: "09",
+            personal: "N'สองขวัญ",
+            color: "",
+          },
+          {
+            day: "6",
+            week: "sa",
+            moth: "8",
             time: "10",
             personal: "N'pj",
             color: "",
@@ -190,11 +214,35 @@ export default {
             color: "",
           },
           {
+            day: "6",
+            week: "sa",
+            moth: "8",
+            time: "14",
+            personal: "N'โจชิ",
+            color: "",
+          },
+          {
+            day: "7",
+            week: "su",
+            moth: "8",
+            time: "09",
+            personal: "N'สองขวัญ",
+            color: "",
+          },
+          {
             day: "7",
             week: "su",
             moth: "8",
             time: "10",
             personal: "N'pj",
+            color: "",
+          },
+          {
+            day: "7",
+            week: "su",
+            moth: "8",
+            time: "13",
+            personal: "N'ปกป้อง",
             color: "",
           },
           {
@@ -213,6 +261,7 @@ export default {
             personal: "N'auto",
             color: "",
           },
+         
         ],
         color_per:[
         {class:"color-user-1"}, 
@@ -223,7 +272,9 @@ export default {
         {class:"color-user-6"}, 
         {class:"color-user-7"}, 
         {class:"color-user-8"}, 
-        {class:"color-user-9"}],
+        {class:"color-user-9"}, 
+        {class:"color-user-10"}, 
+        {class:"color-user-11"}],
       },
     };
   },
@@ -266,5 +317,11 @@ export default {
 }
 .color-user-9 {
   color: rgb(0, 131, 87);
+}
+.color-user-10 {
+  color: rgb(203, 153, 233);
+}
+.color-user-11 {
+  color: rgb(105, 75, 36);
 }
 </style>
