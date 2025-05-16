@@ -2,11 +2,11 @@
 
 <template>
   <div class="">
-      <nav class="navbar navbar-expand-sm navbar-dark  fixed-top" style="background-color: rgba(106, 3, 146, 0.61);">
+      <nav class="navbar navbar-expand-sm navbar-dark  fixed-top bg-navbar">
       <div class="container-fluid">
         <a class="navbar-brand ms-2 d-flex" href="#">
           <img src="./img-page1/logo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
-          <strong><h5 class="mt-2 ms-2" style="color: #ffffff;"> WIT UP TOGETHER</h5></strong>
+          <strong><h5 class="mt-2 ms-1" style="color: black;"> Wit Up Together</h5></strong>
           <!-- <strong><h3 class="mt-1 ms-2"> Wit up together</h3></strong> -->
         </a>
         <!-- <div><strong><h3>Wit Up Together</h3></strong></div> -->
@@ -109,6 +109,9 @@
 .font-custom {
   font-family: "IBMPlexSansThaiLooped";
   font-size: 30px;
+}
+.bg-navbar{
+  background-color: rgb(255, 255, 255);
 }
 </style>
 

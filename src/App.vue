@@ -3,9 +3,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <div id="app" >
-    <div class="bg-image " >
+    <div class="">
       <NavBar/>
-      <div class="content pb-5 pt-5">
+      <div class="content pt-5">
         <router-view/>
       </div>
     </div>
@@ -35,13 +35,15 @@ export default {
 }
 
 .bg-image{
-  background-image: linear-gradient(88deg, #0d00cc59 0%, #cc005559 100%);
+  /* background-image: linear-gradient(88deg, #0d00cc59 0%, #cc005559 100%); */
   width: 100%;
   height: auto;
 }
 
-
-
+.bg-bk{
+  background-color: rgb(234, 248, 255);
+  background: linear-gradient(to bottom, #effcff 0%, #c4f3ff 100%);
+}
 
 </style>
 
